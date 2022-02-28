@@ -15,13 +15,8 @@
         transform: translateX(-50%);
         bottom: 8px;
     }
-
     .navbar-nav {
-        background: #282828;
-    }
-
-    .navbar-nav {
-        background: #282828;
+        background: rgb(254, 231, 237);
     }
     .nav-item .nav-link {
         padding-top: 0.5rem!important;
@@ -29,7 +24,7 @@
         
     }
     .nav-item .nav-link:hover {
-        background: #744fa0;
+        background: #911439;
         color: #ffffff!important;
     }
     .nav-item .nav-link::after{
@@ -177,23 +172,31 @@
     /* Menu part Start */
     .navbar {
         padding-top: 2px;
-        background: rgb(22, 20, 20);
+        background: rgba(254, 231, 237, 0.9);
+        height: 50px;
+    }
+    .navbar-brand img{
+        height: 40px;
+    }
+    .feature_item_text h4{
+        text-align: center;
+        margin: auto;
     }
 
     /* Menu part End */
 
     /* Bennar Menu part Start */
     .bennar_overly {
-        padding-top: 96px;
-        padding-bottom: 70px;
-    }
-
-    .bennar_content h1 {
-        font-size: 40px;
+        padding-top: 170px;
+        padding-bottom: 30px;
     }
 
     .bennar_content h2 {
-        font-size: 20px;
+        font-size: 25px;
+    }
+
+    .bennar_content p {
+        font-size: 14px;
     }
 
     .me {
@@ -226,11 +229,7 @@
     }
 
     .navbar-nav {
-        background: #282828;
-    }
-
-    .navbar-nav {
-        background: #282828;
+        background: rgb(254, 231, 237);
     }
 
     .nav-item {
@@ -342,7 +341,7 @@
 
     /* Footer part Start */
     #footer {
-        background: #353535;
+        background: rgb(254, 231, 237);
         padding-top: 15px;
         padding-bottom: 15px;
     }
