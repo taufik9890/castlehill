@@ -623,23 +623,27 @@ border-radius: 10px;
     transform: translateX(-50%);
     bottom: -21px;
     padding: 10px 20px;
-    border: 1px solid #353535;
+    /* border: 1px solid #353535; */
     border-radius: 5px;
-    background: #ffffff;
-    color: #353535;
+    /* background: #ffffff; */
+    /* color: #353535; */
     font-size: 14px;
     font-weight: 800;
     font-family: 'Raleway', sans-serif;
     transition: all linear .3s;
+    
+    background: #911439;
+    color: #ffffff;
+    border: 1px solid #911439;
 }
 .item_header{
-    background: #f1f1f1;
+    background: #911439;
     text-align: center;
     transition: all linear .3s;
     border-radius: 10px 10px 0 0;
 }
 .item_header h4{
-    color: #353535;
+    color: #ffffff;
     font-size: 18px;
     font-weight: 800;
     font-family: 'Raleway', sans-serif;
@@ -693,18 +697,18 @@ border-radius: 10px;
 }
 
 .pricing_item:hover .item_header{
-    background: #911439;
+    background: #f1f1f1;
     /* outline: 2px solid #744fa0; */
 
     /* -moz-outline-radius: 10px 10px 0 0; */
 }
 .pricing_item:hover .item_header h4{
-    color: #ffffff;
+    color: #353535;
 }
 .pricing_item:hover a{
-    background: #911439;
-    color: #ffffff;
-    border: 1px solid #911439;
+    background: #ffffff;
+    color: #353535;
+    border: 1px solid #353535;
 }
 
 /* ====Pricing Plan Part End ===== */
