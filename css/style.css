@@ -149,7 +149,7 @@ ol {
 
 .bennar_overly {
     padding-top: 28px;
-    background: rgba(4, 4, 4, .2);
+    background: rgba(4, 4, 4, .05);
     padding-top: 280px;
     padding-bottom: 120px;
 }
@@ -291,16 +291,29 @@ ol {
 }
 .about_text p{
     
-    color: #353535;
+    color: #252525;
     font-size: 14px;
     font-weight: 600;
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
-    padding-bottom: 10px;
+    padding-bottom: 32px;
+    line-height: 24px;
 }
+
+
 .about_text p span{
     display: inline-block;
 }
+
+/* .about_text span {
+    color: #777777;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    line-height: 24px;
+    padding-bottom: 32px;
+} */
+
 .about_img h3 {
     color: #353535;
     font-size: 20px;
@@ -369,24 +382,6 @@ ol {
     font-size: 22px;
 }
 
-.about_text p {
-    color: #777777;
-    font-size: 14px;
-    font-weight: 400;
-    font-family: 'Raleway', sans-serif;
-    line-height: 24px;
-    padding-bottom: 32px;
-    padding-top: 26px;
-}
-.about_text span {
-    color: #777777;
-    font-size: 14px;
-    font-weight: 400;
-    font-family: 'Raleway', sans-serif;
-    line-height: 24px;
-    padding-bottom: 32px;
-}
-
 /* ============About Part End ============ */
 
 
@@ -435,7 +430,7 @@ ol {
     transition:all linear .3s
 }
 .feature_item_text p{
-    color: #777777;
+    color: #353535;
     font-size: 14px;
     font-weight: 400;
     font-family: 'Open Sans', sans-serif;
@@ -473,10 +468,6 @@ ol {
 .feature_item_content:hover .feature_item_text
  .border_none::after{
     background: transparent;
-}
-/* Phone */
-.feature_img{
-    width: 260px;
 }
 /* global_eather */
 .global_eather h3{
