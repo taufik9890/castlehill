@@ -906,8 +906,9 @@ border-radius: 10px;
     background-attachment: fixed !important;
     z-index: 999;
     position: relative;
-    padding-top: 45px;
-    padding-bottom: 35px;
+    
+    padding-top: 50px;
+    padding-bottom: 28px;
 }
 /* #no_color::after{
     position: absolute;
